@@ -1,0 +1,9 @@
+.wrapper {
+	> .layout {
+		@apply h-[100vh] flex flex-col;
+
+		> main {
+			@apply mx-5 lg:mx-14 flex-1;
+		}
+	}
+}
